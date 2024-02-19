@@ -1,0 +1,39 @@
+name: tr_store
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  sqflite: ^2.3.2
+  google_fonts: ^6.1.0
+  flutter_easyloading: ^3.0.5
+  logger: ^2.0.2+1
+  flutter_launcher_icons: ^0.13.1
+  dio: ^5.4.0
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.1
+  connectivity_plus: ^2.3.8
+
+dev_dependencies: 
+  flutter_lints: ^3.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/png/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/png/logo_transparent.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
